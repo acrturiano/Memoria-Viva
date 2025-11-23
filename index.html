@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoria Viva: Chile 1973-1990</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              warm: {
+                50: '#fffbea', // Brighter cream
+                100: '#fff1c2', // Vivid pale yellow
+                200: '#ffdf88',
+                300: '#ffc848',
+                400: '#ffb01b',
+                500: '#f59e0b', // Amber 500
+                600: '#d97706',
+                700: '#b45309',
+                800: '#92400e',
+                900: '#1a1a1a', // High contrast black
+              },
+              terra: {
+                light: '#ff7675', // Light coral
+                DEFAULT: '#d63031', // Vivid Red
+                dark: '#b71540' // Dark Crimson
+              },
+              vivid: {
+                blue: '#0984e3',
+                purple: '#6c5ce7',
+                teal: '#00cec9',
+                yellow: '#ffeaa7'
+              }
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+<body class="bg-warm-50 text-warm-900">
+    <div id="root"></div>
+</body>
+</html>
